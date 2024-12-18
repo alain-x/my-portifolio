@@ -1,223 +1,351 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="x.icon" href="img/favicon (1).ico" >
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="x.icon" href="img/favicon (1).ico" />
     <title>Alain</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link href="style.css" rel="stylesheet">
-    
-</head>
-<body>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
     <header class="header">
-        <img src="img/lod.png" class="logo" >
-        <nav class="menu">
-            <ul id="sidemenu">
-            <a href="#header" class="active">Home</a>
-            <a href="#abo">About</a>
-            <a href="#serv">Services</a>
-            <a href="#portfo">Projects</a>
-            <a href="#contact">Contact</a>
-            <i class='bx bx-x' onclick="closemenu()"></i>
+      <img src="img/lod.png" class="logo" />
+      <nav class="menu">
+        <ul id="sidemenu">
+          <a href="#header" class="active">Home</a>
+          <a href="#abo">About</a>
+          <a href="#serv">Services</a>
+          <a href="#portfo">Projects</a>
+          <a href="#contact">Contact</a>
+          <i class="bx bx-x" onclick="closemenu()"></i>
         </ul>
-       
-            <i class='bx bx-menu' onclick="openmenu()"></i>
-        
-                </nav>
+
+        <i class="bx bx-menu" onclick="openmenu()"></i>
+      </nav>
     </header>
 
     <div id="abo">
-       
-        <h1>Hi, I'm  <span> Alain Valentin Gasore</span> <br> from Rwanda.</h1>
+      <h1>
+        Hi, I'm <span> Alain Valentin Gasore</span> <br />
+        from Rwanda.
+      </h1>
     </div>
     <div id="about">
-        <div class="container">
-            <div class="raw">
-                <div class="col-1">
-                    <img src="img/alab.jpeg">
-                </div>
-                <div class="col-2">
-                    <h1 class="sb-tt">About Me</h1>
-                    <p>My expertise is to create website and software include directing and participating in programming activities, monitoring, and evaluating system performance, and designing and implementing new programs and features,and many more.</p>
-                    <div class="tab-t">
-                        <p class="tab-links act-link" onclick="opentab('skills')" >skills</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('profile')">Profile</p>
-                    </div>
-                    <div class="tab-cont act-ta " id="skills">
-                        <ul>
-                            <li><span>Web Development</span><br> Web app Development</li>
-                            <li><span>Mathematics and Geography</span><br> Teaching that courses</li>
-                            <li><span></span><br> Web app Development</li>
-                        </ul>
-                    </div>
-                    <div class="tab-cont" id="education">
-                        <ul>
-                            <li><span>2005-2006</span> <br>Nursery at Groupe Scolaire Sainte Famille</li>
-                            <li><span>2007-2014</span><br>Primary school at Groupe Scolaire Sainte Famille  </li>
-                            <li><span>2015-2016</span> <br>O'level at Groupe Scolaire Sainte Famille</li>
-                            <li><span>2016-2017</span> <br>O'level at Groupe Scolaire Sainte Kizito Murambi</li>
-                            <li><span>2018-2021</span><br> Mathematics Economics and Geography at Ecole Secondaire Cyimbili</li>
-                            <li><span>2022-current</span><br>Information System and Management at UNILAK</li>
-                        </ul>
-                    </div>
-                    <div class="tab-cont" id="experience">
-                        <ul>
-                            <li><span>2022-current</span><br> training Web Development</li>
-                        </ul>
-                    </div>
-                    <div class="tab-cont" id="profile">
-                        <ul>
-                            <li><span>Country:</span> Rwanda </li>
-                            <li><span>City:</span> Kigali </li>
-                            <li><span>Birth Date:</span> 11/july/2001 </li>
-                            <li><span>Age:</span> 22 </li>
-                            <li><span>Hobbies:</span> Coding, Playing Rugby, listen music and playing video game </li>
-                            <li><span>Zodiac sign:</span> Cancer </li>
-
-                        </ul>
-                    </div>
-
-                </div>
+      <div class="container">
+        <div class="raw">
+          <div class="col-1">
+            <img src="img/alainbg.png" />
+          </div>
+          <div class="col-2">
+            <h1 class="sb-tt">About Me</h1>
+            <p>
+              My expertise is to create website and software include directing
+              and participating in programming activities, monitoring, and
+              evaluating system performance, and designing and implementing new
+              programs and features,and many more.
+            </p>
+            <div class="tab-t">
+              <p class="tab-links act-link" onclick="opentab('skills')">
+                skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('profile')">Profile</p>
             </div>
+            <div class="tab-cont act-ta" id="skills">
+              <ul>
+                <li>
+                  <span>Web Development</span><br />
+                  Web app Development
+                </li>
+                <li>
+                  <span>Mathematics and Geography</span><br />
+                  Teaching that courses
+                </li>
+                <li>
+                  <span></span><br />
+                  Web app Development
+                </li>
+              </ul>
+            </div>
+            <div class="tab-cont" id="education">
+              <ul>
+                <li>
+                  <span>2005-2006</span> <br />Nursery at Groupe Scolaire Sainte
+                  Famille
+                </li>
+                <li>
+                  <span>2007-2014</span><br />Primary school at Groupe Scolaire
+                  Sainte Famille
+                </li>
+                <li>
+                  <span>2015-2016</span> <br />O'level at Groupe Scolaire Sainte
+                  Famille
+                </li>
+                <li>
+                  <span>2016-2017</span> <br />O'level at Groupe Scolaire Sainte
+                  Kizito Murambi
+                </li>
+                <li>
+                  <span>2018-2021</span><br />
+                  Mathematics Economics and Geography at Ecole Secondaire
+                  Cyimbili
+                </li>
+                <li>
+                  <span>2022-current</span><br />Information System and
+                  Management at UNILAK
+                </li>
+              </ul>
+            </div>
+            <div class="tab-cont" id="experience">
+              <ul>
+                <li>
+                  <span>2021-2022</span><br />
+                  Teaching Mathematics high school
+                </li>
+                <li>
+                  <span>2022-current</span><br />
+                  Web Development in 1000 hills rugby club
+                </li>
+              </ul>
+            </div>
+            <div class="tab-cont" id="profile">
+              <ul>
+                <li><span>Country:</span> Rwanda</li>
+                <li><span>City:</span> Kigali</li>
+                <li><span>Birth Date:</span> 11/july/2001</li>
+                <li><span>Age:</span> 23</li>
+                <li>
+                  <span>Hobbies:</span> Coding, Playing Rugby, listen music and
+                  playing video game
+                </li>
+                <li><span>Zodiac sign:</span> Cancer</li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <div id="serv">
-        <div class="conti">
-            <h1 class="sb-tt">My Service</h1>
-            <div class="serv-lis">
-              <div>
-                <i class='bx bx-code-alt'></i>
-                <h2>Web Design</h2>
-                <p>A web design quotation is a document that a web developer sends to a potential client to explain service specifics and prices Developers often send website quotations at the onset of a project</p>
-                
-              </div>
-              
-            </div>
+      <div class="conti">
+        <h1 class="sb-tt">My Services</h1>
+        <div class="serv-lis">
+          <div>
+            <i class="bx bx-code-alt"></i>
+            <h2>Web Development</h2>
+            <p>
+              As a **Web Developer** at 1000 Hills Rugby Club, I specialize in
+              building and maintaining websites using modern technologies like
+              **Angular** for the frontend and **Spring Boot** for the backend.
+              I focus on creating responsive, user-friendly websites that meet
+              the specific needs of my clients.
+            </p>
+          </div>
+          <div>
+            <i class="bx bx-laptop"></i>
+            <h2>Web Application Development</h2>
+            <p>
+              I have experience developing web applications that integrate
+              backend services, such as user authentication and payment
+              gateways, to provide seamless user experiences. I have worked on
+              projects like an **E-Commerce Platform** and **Real-Time Sports
+              Score Websites** using **Angular** and **Spring Boot**.
+            </p>
+          </div>
+          <div>
+            <i class="bx bx-cog"></i>
+            <h2>Maintenance & Optimization</h2>
+            <p>
+              I also provide ongoing maintenance and optimization services,
+              ensuring that websites and applications remain secure, fast, and
+              up-to-date. This includes performance tuning, bug fixes, and
+              continuous improvements to ensure long-term stability and
+              scalability.
+            </p>
+          </div>
         </div>
+      </div>
     </div>
+
     <div id="portfo">
-        <div class="cont">
-            <h1>My Last Projects</h1>
-            <div class="work-li">
-            <div class="work">
-                <img src="img/aln.jpg" >
-                <div class="layer">
-                    <h3>Website</h3>
-                    <p>Website connects you the talented Athletics around the World.</p>
-                   <a href=""><i class='bx bx-link-external'></i></a>
-                </div>
+      <div class="cont">
+        <h1>My Last Projects</h1>
+        <div class="work-li">
+          <div class="work">
+            <img src="img/web.png" />
+            <div class="layer">
+              <h3>1000HillsRugby Website</h3>
+              <p>
+                Developed and maintained the official website for 1000 Hills
+                Rugby Club, using **Angular** for the frontend and **Spring
+                Boot** for the backend to enhance user experience and website
+                performance.
+              </p>
+              <a href="your-project-link-here"
+                ><i class="bx bx-link-external"></i
+              ></a>
             </div>
-            <div class="work">
-                
+          </div>
+          <div class="work">
+            <img src="img/shop.png" />
+            <div class="layer">
+              <h3>E-Commerce Platform</h3>
+              <p>
+                Developed an e-commerce platform using **Angular** for the
+                frontend and **Spring Boot** for the backend. The platform
+                supports user authentication, product management, and seamless
+                payment integration.
+              </p>
+              <a href="your-project-link-here"
+                ><i class="bx bx-link-external"></i
+              ></a>
             </div>
-            <div class="work">
-                
+          </div>
+          <div class="work">
+            <img src="img/real.jpg" />
+            <div class="layer">
+              <h3>Real-Time Sports Scores Website</h3>
+              <p>
+                Developed a real-time sports score website using **Angular** for
+                the frontend and **Spring Boot** for the backend, providing live
+                scores and updates for sports enthusiasts, with a seamless user
+                interface.
+              </p>
+              <a href="your-project-link-here"
+                ><i class="bx bx-link-external"></i
+              ></a>
             </div>
-            </div>
+          </div>
         </div>
+      </div>
     </div>
+
     <div id="contact">
-        <div class="cont">
-            <div class="raw">
-                <div class="cont-left">
-                    <h1 class="sb-tt">Contact me</h1>
-                    <p><i class='bx bxs-envelope'></i>alainvalentin04@gmail.com</p>
-                    <p><i class='bx bxs-phone'></i>+250782407887</p>
-                    <div class="so-icons">
-                        <a href="https://www.facebook.com/profile.php?id=100082582609984"><i class='bx bxl-facebook-circle'></i></a>
-                        <a href="https://www.instagram.com/alainvava_/"><i class='bx bxl-instagram-alt'></i></a>
-                    </div>
-                    <a href="alain.pdf" download="" class="btn">Download My CV</a>
-                    
-                </div>
-                <div class="cont-right">
-                    <form action="https://sheetdb.io/api/v1/37cnl8w26zbx8" method="post" id="sheetdb form" >
-                        <input type="text" name="Data[Name]" placeholder="Your Name" required>
-                        <input type="email" name="Data[Email]" placeholder="email" required>
-                        <textarea name="Data[Message]"  cols="30" rows="10" placeholder="Your Message"></textarea>
-                        <button  type="submit" class="btn">Send</button>
-                    </form>
-                </div>
+      <div class="cont">
+        <div class="raw">
+          <div class="cont-left">
+            <h1 class="sb-tt">Contact me</h1>
+            <p><i class="bx bxs-envelope"></i>alainvalentin04@gmail.com</p>
+            <p><i class="bx bxs-phone"></i>+250782407887</p>
+            <div class="so-icons">
+              <a href="https://www.facebook.com/profile.php?id=100082582609984"
+                ><i class="bx bxl-facebook-circle"></i
+              ></a>
+              <a href="https://www.instagram.com/alainvava_/"
+                ><i class="bx bxl-instagram-alt"></i
+              ></a>
             </div>
+            <a href="CValain.pdf" download="" class="btn">Download My CV</a>
+          </div>
+          <div class="cont-right">
+            <form
+              action="https://sheetdb.io/api/v1/37cnl8w26zbx8"
+              method="post"
+              id="sheetdb form"
+            >
+              <input
+                type="text"
+                name="Data[Name]"
+                placeholder="Your Name"
+                required
+              />
+              <input
+                type="email"
+                name="Data[Email]"
+                placeholder="email"
+                required
+              />
+              <textarea
+                name="Data[Message]"
+                cols="30"
+                rows="10"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn">Send</button>
+            </form>
+          </div>
         </div>
+      </div>
     </div>
-    
+
     <script>
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-cont");
-        
-        function opentab(tabname){
-            for(tablink of tablinks){
-                tablink.classList.remove("act-link");
-            }
-            for(tabcontent of tabcontents){
-                tabcontent.classList.remove("act-ta");
-            }
-            event.currentTarget.classList.add("act-link");
-            document.getElementById(tabname).classList.add("act-ta");
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-cont");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("act-link");
         }
-       </script>
-       <script>
-        var sidemenu = document.getElementById("sidemenu");
-function openmenu(){
-    sidemenu.style.right="0";
-
-}
-function closemenu(){
-    sidemenu.style.right="-180px";
-    
-}
-
-       </script>
-        
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("act-ta");
+        }
+        event.currentTarget.classList.add("act-link");
+        document.getElementById(tabname).classList.add("act-ta");
+      }
+    </script>
     <script>
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-cont");
-
-        function opentab(tabname) {
-            for (tablink of tablinks) {
-                tablink.classList.remove("act-link");
-            }
-            for (tabcontent of tabcontents) {
-                tabcontent.classList.remove("act-ta");
-            }
-            event.currentTarget.classList.add("act-link");
-            document.getElementById(tabname).classList.add("act-ta");
-        }
-
-        var sidemenu = document.getElementById("sidemenu");
-
-        function openmenu() {
-            sidemenu.style.right = "0";
-        }
-
-        function closemenu() {
-            sidemenu.style.right = "-180px";
-        }
-
-        var form = document.getElementById('sheetdb form');
-        form.addEventListener("submit", function (e) {
-            e.preventDefault();
-            fetch(form.action, {
-                method: "POST",
-                body: new FormData(form),
-            }).then(function (response) {
-                return response.json();
-            }).then(function (data) {
-                if (data.status === "success") {
-                    alert("Message sent successfully!");
-                    form.reset(); // Clear the form fields
-                } else {
-                    alert("Message sent successfully!");
-                }
-            }).catch(function (error) {
-                console.error('Error:', error);
-            });
-        });
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-180px";
+      }
     </script>
 
-</body>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-cont");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("act-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("act-ta");
+        }
+        event.currentTarget.classList.add("act-link");
+        document.getElementById(tabname).classList.add("act-ta");
+      }
+
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+
+      function closemenu() {
+        sidemenu.style.right = "-180px";
+      }
+
+      var form = document.getElementById("sheetdb form");
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        fetch(form.action, {
+          method: "POST",
+          body: new FormData(form),
+        })
+          .then(function (response) {
+            return response.json();
+          })
+          .then(function (data) {
+            if (data.status === "success") {
+              alert("Message sent successfully!");
+              form.reset(); // Clear the form fields
+            } else {
+              alert("Message sent successfully!");
+            }
+          })
+          .catch(function (error) {
+            console.error("Error:", error);
+          });
+      });
+    </script>
+  </body>
 </html>
