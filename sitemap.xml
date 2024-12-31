@@ -6,17 +6,15 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
 <url>
-  <loc>https://alain-x.github.io/my-portifolio/</loc>
+  <loc>https://alain-x.github.io/my-portfolio/</loc>
   <lastmod>2024-12-31T06:15:54+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://alain-x.github.io/my-portifolio/CValain.pdf</loc>
+  <loc>https://alain-x.github.io/my-portfolio/CValain.pdf</loc>
   <lastmod>2024-12-31T06:15:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 
 </urlset>
